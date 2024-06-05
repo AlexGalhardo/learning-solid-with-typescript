@@ -1,0 +1,22 @@
+{
+	"name": "learning-solid-with-typescript",
+	"scripts": {
+		"format": "prettier --write \"src/**/*.ts\"",
+		"prepare": "husky install",
+		"single-responsability": "cat src/1-Single-responsability-principle-SRP.ts",
+		"open-closed": "cat src/2-Open-closed-principle-OCP.ts",
+		"liskov-substitution": "cat src/3-Liskov-substitution-principle-LSP.ts",
+		"interface-segregation": "cat src/4-Interface-segreation-principle-ISP.ts",
+		"dependency-inversion": "cat src/5-Dependency-inversion-principle-DIP.ts"
+	},
+	"dependencies": {
+		"husky": "^9.0.11",
+		"prettier": "^3.3.1"
+	},
+	"devDependencies": {
+		"@types/bun": "^1.1.3",
+		"@types/node": "^20.14.2",
+		"bun-types": "latest",
+		"typescript": "^5.4.5"
+	}
+}
